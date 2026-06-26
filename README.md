@@ -1,10 +1,10 @@
-# 🌱 EcoVision AI
+# EcoVision AI
 
 EcoVision AI is an interactive web-based waste recognition simulator that demonstrates how Artificial Intelligence can help classify waste and promote proper waste disposal. Users simply drag waste items into a virtual laptop screen, where the AI performs a simulated analysis and displays information such as material type, waste category, recommended disposal bin, decomposition time, and confidence score.
 
 ---
 
-## ✨ Features
+## Features
 
 * 🖱️ Drag-and-drop waste detection
 * 💻 AI-inspired analysis 
@@ -17,7 +17,7 @@ EcoVision AI is an interactive web-based waste recognition simulator that demons
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 EcoVision/
@@ -30,7 +30,7 @@ EcoVision/
 
 ---
 
-## 🧠 Waste Categories
+## Waste Categories
 
 ### Recyclable
 
@@ -63,7 +63,7 @@ EcoVision/
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * HTML5
 * CSS3
@@ -71,7 +71,7 @@ EcoVision/
 
 ---
 
-## 🎯 Educational Purpose
+## Educational Purpose
 
 EcoVision AI is designed to spread awareness about:
 
@@ -83,7 +83,7 @@ EcoVision AI is designed to spread awareness about:
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 * Image recognition using TensorFlow.js
 * Webcam waste detection
@@ -96,13 +96,13 @@ EcoVision AI is designed to spread awareness about:
 
 ---
 
-## 📸 Preview
+## Preview
 
 Users interact with a virtual workspace by dragging waste objects into an AI-powered laptop interface. The application performs a simulated scan and presents detailed environmental information, making waste management engaging and educational.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Shivansh Kumar**
 
@@ -110,7 +110,7 @@ Made as an educational project to demonstrate AI-assisted waste classification a
 
 ---
 
-## 📜 License
+## License
 
 This project is open-source and available for educational and non-commercial use.
 
