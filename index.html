@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>EcoVision</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="laptop">
+        <div class="frame">
+            <div class="screen" id="screen">
+                <div class="camera"></div>
+                <div class="scanline" id="scanline"></div>
+
+                <div class="center">
+                    <div class="panel">
+
+                        <div id="idle">
+                            <h2>EcoVision AI</h2>
+                            <p>Drag waste from the table into the laptop screen.</p>
+                        </div>
+
+                        <div id="analysis">
+                            <h2 id="anTitle">Analyzing...</h2>
+                            <div class="bar">
+                                <div class="fill" id="fill"></div>
+                            </div>
+                            <div id="pct">0.00000%</div>
+                            <p class="muted">Recognizing material and waste category...</p>
+                        </div>
+
+                        <div id="result"></div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="base"></div>
+    </div>
+
+    <div class="table3d">
+        <div class="top"></div>
+        <div class="front"></div>
+    </div>
+
+    <div class="obj" data-name="Plastic Bottle" style="left:950px;top:460px">🥤</div>
+    <div class="obj" data-name="Banana Peel" style="left:1070px;top:500px">🍌</div>
+    <div class="obj" data-name="Newspaper" style="left:1180px;top:460px">📰</div>
+    <div class="obj" data-name="Metal Can" style="left:1310px;top:500px">🥫</div>
+    <div class="obj" data-name="Cardboard Box" style="left:1430px;top:460px">📦</div>
+    <div class="obj" data-name="Glass Bottle" style="left:900px;top:560px">🍾</div>
+    <div class="obj" data-name="Milk Carton" style="left:1020px;top:590px">🧃</div>
+    <div class="obj" data-name="Apple Core" style="left:1140px;top:560px">🍎</div>
+    <div class="obj" data-name="Plastic Bag" style="left:1260px;top:590px">🛍️</div>
+    <div class="obj" data-name="Battery" style="left:1380px;top:560px">🔋</div>
+
+    <div class="bio-bag" id="bioBag" title="Bio-Waste Bag">🗑️</div>
+
+    <div class="bio-tray" id="bioTray">
+        <h3>Bio-Waste Tray</h3>
+    </div>
+
+    <div class="obj bio-hidden" data-name="Animal Bones" data-home-left="890" data-home-top="490" style="left:890px;top:490px">🦴</div>
+    <div class="obj bio-hidden" data-name="Fish Remains" data-home-left="980" data-home-top="490" style="left:980px;top:490px">🐟</div>
+    <div class="obj bio-hidden" data-name="Chicken Bones" data-home-left="1070" data-home-top="490" style="left:1070px;top:490px">🐔</div>
+    <div class="obj bio-hidden" data-name="Egg Shells" data-home-left="1160" data-home-top="490" style="left:1160px;top:490px">🥚</div>
+    <div class="obj bio-hidden" data-name="Food Scraps" data-home-left="980" data-home-top="570" style="left:980px;top:570px">🍖</div>
+    <div class="obj bio-hidden" data-name="Garden Waste" data-home-left="1070" data-home-top="570" style="left:1070px;top:570px">🍂</div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
